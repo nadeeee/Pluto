@@ -198,10 +198,33 @@ header{
 
 .section-popular-travel{
     .btn-primary{
-        margin-top: 30px !important;
-        margin-left: 190px !important;
+        margin-left: 113px !important;
     }
     .card-text{
         text-decoration: none;
+        color: black;
+        font-weight: 300;
+    }
+    .card{
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    }
+}
+.list-travel{
+    border-radius: 6px !important;
+}
+
+.section-networks{
+    background-color: #ffff;
+    margin-top: -293px;
+    padding-top: 380px;
+    padding-bottom: 40px;
+    h2{
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+    }
+    .text-center{
+        padding-left: 25px !important;
+        padding-right: 25px !important;
     }
 }
