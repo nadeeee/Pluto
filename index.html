@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="frontend/style/main.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <a href="#" class="navbar-brand">
+                <img src="/frontend/image/Logo.png" alt="logo Pluto">
+            </a>
+            <button class="navbar-toggler navbar-toggler-right"
+
+                type="button"
+                data-toggle="collapse"
+                data-target="#navb"
+            >
+            
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Hotels</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop"
+                        data-toggle="dropdown">
+                        Services
+                        </a>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                            <a href="#" class="dropdown-item">Link</a>
+                        </div>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Package Travel</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Rewards</a>
+                    </li>
+                </ul>
+
+                 <!-- Mobile button-->
+
+                 <form class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0 px-4">
+                        Login
+                    </button>
+                </form>
+
+                    <!-- Desktop button-->
+
+                    <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                        <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                            Login
+                        </button>
+                    </form>
+            </div>
+        </nav>
+    </div>
+    
+    <!-- Header -->
+    <header class="text-center">
+        <h1>
+            Cheap flights everywhere,
+            <br>
+            From anywhere
+        </h1>
+        <a href="#" class="btn btn-get-started btn-lg px-4 mt-4">
+            Get started
+        </a>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="section-stats row justify-content-center" id="stats">
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>30K</h2>
+                    <p>Members</p>
+                </div>
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>27</h2>
+                    <p>Countries</p>
+                </div>
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>3K</h2>
+                    <p>Hotels</p>
+                </div>
+                <div class="col-3 col-md-2 stats-detail">
+                    <h2>8</h2>
+                    <p>Partners</p>
+                </div>
+            </section>
+        </div>
+
+        <section class="section-popular" id="popular">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-left section-popular-heading">
+                        <h2>Flights Deals From Indonesia</h2>
+                        <p>Check out these cheaper than average flight prices plus more destinations offering great value right now.</p> <a href="#"> See more deals </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-popular-content" id="popularcontent">
+            <div class="container">
+                <div class="section-popular-travel row justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="/frontend/image/London.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">London</h5>
+                          <p class="card-text-airlanes">Qatar Airways</p>
+                          <p class="card-text-date">Fri,2 Jul</p>
+                          <p class="card-text-route"> CGK<span class="tab"></span>LGW</p>                          
+                          <p class="card-text-date">Fri,9 Jul</p>
+                          <p class="card-text-route"> LGW<span class="tab"></span>CGK</p>
+                        </div>
+                        <ul class="list-group list-travel">
+                            <li class="list-group-item">
+                                <a class="card-text">From</a>
+                                <a href="#" class="btn btn-primary">View</a>
+                            </li>
+                        </ul>
+                      </div>
+
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="/frontend/image/NY.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">New york</h5>
+                          <p class="card-text-airlanes">Qatar Airways</p>
+                          <p class="card-text-date">Fri,2 Jul</p>
+                          <p class="card-text-route"> CGK<span class="tab"></span>JFK</p>                          
+                          <p class="card-text-date">Fri,9 Jul</p>
+                          <p class="card-text-route"> JFK<span class="tab"></span>CGK</p>
+                        </div>
+                        <ul class="list-group list-travel">
+                            <li class="list-group-item">
+                                <a class="card-text">From</a>
+                                <a href="#" class="btn btn-primary">View</a>
+                            </li>
+                        </ul>
+                      </div>
+
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="/frontend/image/istanbul.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Istanbul</h5>
+                          <p class="card-text-airlanes">Qatar Airways</p>
+                          <p class="card-text-date">Fri,2 Jul</p>
+                          <p class="card-text-route"> CGK<span class="tab"></span>IST</p>                          
+                          <p class="card-text-date">Fri,9 Jul</p>
+                          <p class="card-text-route"> IST<span class="tab"></span>CGK</p>
+                        </div>
+                        <ul class="list-group list-travel">
+                            <li class="list-group-item">
+                                <a class="card-text">From</a>
+                                <a href="#" class="btn btn-primary">View</a>
+                            </li>
+                        </ul>
+                      </div>
+                      
+                  <!--  <div class="card-group">
+                        <div class="card">
+                          <img class="card-img-top" src="..." alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="..." alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="..." alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                          </div>
+                          <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                          </div>
+                        </div>
+                      </div>
+                            
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+    <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+</body>
+</html>

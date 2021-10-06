@@ -1,0 +1,200 @@
+body {
+  background-color: #e7e7e7;
+  font-family: 'Assistant', sans-serif;
+  color: #26374E;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-light {
+  padding-bottom: 0 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #26374E;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #26374E !important;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: 0px !important;
+  margin-right: -18px !important;
+  height: 76px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #26374E;
+  color: #ffff;
+}
+
+.btn-login:hover {
+  background-color: #364F71;
+  color: #ffff;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -76px;
+  background-image: url("../image/header.jpg");
+  background-size: cover;
+}
+
+header h1 {
+  color: #ffff;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header .btn-get-started {
+  background-color: #EA5E5C;
+  color: #ffff;
+}
+
+header .btn-get-started:hover {
+  background-color: #e06e6c;
+  color: #ffff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #ffff;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #26374E;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: #ffff;
+}
+
+.section-popular .section-popular-heading a {
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  color: #EA5E5C;
+  display: inline-block;
+  top: -39px !important;
+  margin-left: 1000px !important;
+}
+
+.section-popular .section-popular-heading a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #EA5E5C;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  -webkit-transition: -webkit-transform 0.25s linear;
+  transition: -webkit-transform 0.25s linear;
+  transition: transform 0.25s linear;
+  transition: transform 0.25s linear, -webkit-transform 0.25s linear;
+}
+
+.section-popular .section-popular-heading a:hover::after {
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 19px;
+  font-weight: lighter;
+}
+
+.container .section-popular-travel {
+  margin-bottom: 20px !important;
+}
+
+.card {
+  border-radius: 8px;
+  margin-right: 16px !important;
+  margin-top: 44px !important;
+}
+
+.card .card-img-top {
+  background-size: cover;
+}
+
+.card-body .card-title {
+  position: absolute;
+  margin-top: -55px;
+  margin-left: -10px;
+  color: #ffff;
+}
+
+.card-body .card-text-airlanes {
+  font-size: 12px !important;
+  font-weight: lighter;
+  margin-bottom: 8px !important;
+  margin-left: -5px !important;
+  margin-top: -10px !important;
+}
+
+.card-body p {
+  font-weight: 600;
+}
+
+.card-body .card-text-route {
+  margin-right: 0px !important;
+  margin-left: 145px !important;
+  margin-top: -40px !important;
+}
+
+.card-body .tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.section-popular-travel .btn-primary {
+  margin-top: 30px !important;
+  margin-left: 190px !important;
+}
+
+.section-popular-travel .card-text {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
