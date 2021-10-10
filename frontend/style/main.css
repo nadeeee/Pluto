@@ -1,5 +1,5 @@
 body {
-  background-color: #e7e7e7;
+  background-color: #f7f9ff;
   font-family: 'Assistant', sans-serif;
   color: #26374E;
 }
@@ -190,13 +190,18 @@ header .btn-get-started:hover {
 }
 
 .section-popular-travel .btn-primary {
-  margin-left: 113px !important;
+  margin-left: 105px !important;
 }
 
 .section-popular-travel .card-text {
   text-decoration: none;
   color: black;
   font-weight: 300;
+}
+
+.section-popular-travel .Price {
+  color: #26374E !important;
+  font-weight: 600;
 }
 
 .section-popular-travel .card {
@@ -209,7 +214,8 @@ header .btn-get-started:hover {
 }
 
 .section-networks {
-  background-color: #ffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: linear-gradient(#fff 0%, #f7f9ff 100%);
   margin-top: -293px;
   padding-top: 380px;
   padding-bottom: 40px;
@@ -218,10 +224,59 @@ header .btn-get-started:hover {
 .section-networks h2 {
   font-family: 'Playfair Display', serif;
   font-weight: bold;
+  font-size: 40px;
+}
+
+.section-networks p {
+  font-size: 18px;
 }
 
 .section-networks .text-center {
   padding-left: 25px !important;
   padding-right: 25px !important;
+}
+
+.price {
+  color: #26374E !important;
+}
+
+.section-live-map {
+  /* Location of the image */
+  height: 600px;
+  background-image: url("../image/bg fligt@2x.png");
+  background-color: #f7f9ff;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section-live-map .top-left {
+  font-family: 'Playfair Display', serif;
+  padding-left: 50px;
+}
+
+.section-live-map h2 {
+  padding-top: 120px;
+}
+
+.section-live-map p {
+  padding-top: 50px;
+}
+
+.section-live-map .btn-get-started {
+  background-color: #EA5E5C;
+  color: #06143C;
+}
+
+.section-live-map .btn-get-started:hover {
+  background-color: #e06e6c;
+  color: #06143C;
+}
+
+footer {
+  height: 300px;
+}
+
+.section-footer a {
+  color: #071C4D;
 }
 /*# sourceMappingURL=main.css.map */
